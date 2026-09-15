@@ -48,13 +48,13 @@ body {
     --dms-icon-color-before: var(--white); /* normal icon color */
     --dms-icon-color-after: var(--white); /* icon color when button is hovered/selected */
     --custom-dms-background: on; /* off to disable, image to use a background image (must set url variable below), color to use a custom color/gradient */
-    --dms-background-image-url: url('https://raw.githubusercontent.com/spmelthdown/wallpapers/refs/heads/main/EndField.05.png'); /* url of the background image */
+    --dms-background-image-url: url('https://raw.githubusercontent.com/spmelthdown/wallpapers/refs/heads/main/EndField.04.png'); /* url of the background image */
     --dms-background-image-size: cover; /* size of the background image (css background-size property) */
     --dms-background-color: linear-gradient(70deg, var(--red-2), var(--red-2), var(--red-2)); /* fixed color/gradient (css background property) */
 
     /* background image options */
     --background-image: on; /* off: no background image, on: enable background image (must set url variable below) */
-    --background-image-url: url('https://raw.githubusercontent.com/spmelthdown/wallpapers/refs/heads/main/EndField.05.png'); /* url of the background image */
+    --background-image-url: url('https://raw.githubusercontent.com/spmelthdown/wallpapers/refs/heads/main/EndField.04.png'); /* url of the background image */
 
     /* transparency/blur options */
     /* NOTE: TO USE TRANSPARENCY/BLUR, YOU MUST HAVE TRANSPARENT BG COLORS. FOR EXAMPLE: --bg-4: hsla(220, 15%, 10%, 0.7); */
@@ -96,11 +96,11 @@ body {
     --message-hover: hsla(220, 0%, 0%, 0.1); /* messages when hovered */
 
     /* accent colors */
-    --accent-1: var(--red-1); /* links and other accent text */
-    --accent-2: var(--red-2); /* small accent elements */
-    --accent-3: var(--red-3); /* accent buttons */
-    --accent-4: var(--red-4); /* accent buttons when hovered */
-    --accent-5: var(--red-5); /* accent buttons when clicked */
+    --accent-1: var(--yellow-1); /* links and other accent text */
+    --accent-2: var(--yellow-2); /* small accent elements */
+    --accent-3: var(--yellow-3); /* accent buttons */
+    --accent-4: var(--yellow-4); /* accent buttons when hovered */
+    --accent-5: var(--yellow-5); /* accent buttons when clicked */
     --accent-new: var(--accent-2); /* stuff that's normally red like mute/deafen buttons */
     --mention: linear-gradient(to right, color-mix(in hsl, var(--accent-2), transparent 90%) 40%, transparent); /* background of messages that mention you */
     --mention-hover: linear-gradient(to right, color-mix(in hsl, var(--accent-2), transparent 95%) 40%, transparent); /* background of messages that mention you when hovered */
