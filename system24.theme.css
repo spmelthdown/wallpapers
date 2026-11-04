@@ -38,7 +38,7 @@ body {
     --subtle-top-bar-title: off; /* off: default, on: hide the icon and use subtle text color (like old discord) */
 
     /* window controls */
-    --custom-window-controls: off; /* off: default window controls, on: custom window controls */
+    --custom-window-controls: on; /* off: default window controls, on: custom window controls */
     --window-control-size: 14px; /* size of custom window controls */
 
     /* dms button options */
@@ -53,7 +53,7 @@ body {
     --dms-background-color: linear-gradient(70deg, var(--blue-2), var(--purple-2), var(--red-2)); /* fixed color/gradient (css background property) */
 
     /* background image options */
-    --background-image: off; /* off: no background image, on: enable background image (must set url variable below) */
+    --background-image: on; /* off: no background image, on: enable background image (must set url variable below) */
     --background-image-url: url('https://raw.githubusercontent.com/spmelthdown/wallpapers/refs/heads/main/EndField.00.jpg'); /* url of the background image */
 
     /* transparency/blur options */
