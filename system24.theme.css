@@ -16,7 +16,7 @@
 
 body {
     /* font, change to '' for default discord font */
-    --font: 'Aptos'; /* change to '' for default discord font */
+    --font: ''; /* change to '' for default discord font */
     --code-font: 'DM Mono'; /* change to '' for default discord font */
     font-weight: 300 /* normal text font weight. DOES NOT AFFECT BOLD TEXT */;
 
