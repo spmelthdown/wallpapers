@@ -70,6 +70,7 @@ body {
 
     /* unrounding options */
     --unrounding: off; /* off: default, on: remove rounded corners from panels */
+    --round-pfp: on; /* off: square profile pictures, on: rounded profile pictures (Discord default) */
 
     /* styling options */
     --custom-spotify-bar: on; /* off: default, on: custom text-like spotify progress bar */
